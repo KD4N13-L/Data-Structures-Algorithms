@@ -1,0 +1,426 @@
+{
+  "darkling": {
+    "elder": {
+      "dexterity": "3",
+      "name": "Darkling Elder"
+    },
+    "regular": {
+      "dexterity": "3",
+      "name": "Darkling"
+    }
+  },
+  "darkmantle": {
+    "dexterity": "1",
+    "name": "Darkmantle"
+  },
+  "death_knight": {
+    "dexterity": "0",
+    "name": "Death Knight"
+  },
+  "deep_scion": {
+    "dexterity": "1",
+    "name": "Deep Scion"
+  },
+  "demilich": {
+    "dexterity": "5",
+    "name": "Demilich"
+  },
+  "demon": {
+    "babau": {
+      "dexterity": "3",
+      "name": "Babau"
+    },
+    "balor": {
+      "dexterity": "2",
+      "name": "Balor"
+    },
+    "barlgura": {
+      "dexterity": "2",
+      "name": "Barlgura"
+    },
+    "chasme": {
+      "dexterity": "2",
+      "name": "Chasme"
+    },
+    "dretch": {
+      "dexterity": "0",
+      "name": "Dretch"
+    },
+    "glabrezu": {
+      "dexterity": "2",
+      "name": "Glabrezu"
+    },
+    "goristro": {
+      "dexterity": "0",
+      "name": "Goristro"
+    },
+    "hezrou": {
+      "dexterity": "3",
+      "name": "Hezrou"
+    },
+    "manes": {
+      "dexterity": "-1",
+      "name": "Manes"
+    },
+    "marilith": {
+      "dexterity": "2",
+      "name": "Marilith"
+    },
+    "maw_demon": {
+      "dexterity": "-1",
+      "name": "Maw Demon"
+    },
+    "nalfeshnee": {
+      "dexterity": "2",
+      "name": "Nalfeshnee"
+    },
+    "quasit": {
+      "dexterity": "3",
+      "name": "Quasit"
+    },
+    "shadow_demon": {
+      "dexterity": "3",
+      "name": "Shadow Demon"
+    },
+    "shoosuva": {
+      "dexterity": "1",
+      "name": "Shoosuva"
+    },
+    "vrock": {
+      "dexterity": "2",
+      "name": "Vrock"
+    },
+    "yochlol": {
+      "dexterity": "2",
+      "name": "Yochlol"
+    }
+  },
+  "devil": {
+    "barbed_devil": {
+      "dexterity": "3",
+      "name": "Barbed Devil (Hamatula)"
+    },
+    "bearded_devil": {
+      "dexterity": "2",
+      "name": "Bearded Devil (Barbazu)"
+    },
+    "bone_devil": {
+      "dexterity": "3",
+      "name": "Bone Devil (Osyluth)"
+    },
+    "chain_devil": {
+      "dexterity": "2",
+      "name": "Chain Devil (Kyton)"
+    },
+    "erinyes": {
+      "dexterity": "3",
+      "name": "Erinyes"
+    },
+    "hellish_minotaur": {
+      "dexterity": "0",
+      "name": "Hellish MInotaur"
+    },
+    "horned_devil": {
+      "dexterity": "3",
+      "name": "Horned Devil (Malebranche)"
+    },
+    "ice_devil": {
+      "dexterity": "2",
+      "name": "Ice Devil (Gelugon)"
+    },
+    "imp": {
+      "dexterity": "3",
+      "name": "Imp"
+    },
+    "lemure": {
+      "dexterity": "-3",
+      "name": "Lemure"
+    },
+    "pit_fiend": {
+      "dexterity": "2",
+      "name": "Pit Fiend"
+    },
+    "spined_devil": {
+      "dexterity": "2",
+      "name": "Spined Devil (Spinagon)"
+    }
+  },
+  "devourer": {
+    "dexterity": "1",
+    "name": "Devourer"
+  },
+  "dinosaur": {
+    "allosaurus": {
+      "dexterity": "1",
+      "name": "Alloaurus"
+    },
+    "ankylosaurus": {
+      "dexterity": "0",
+      "name": "Ankylosaurus"
+    },
+    "brontosaurus": {
+      "dexterity": "-1",
+      "name": "Brontosaurus"
+    },
+    "deinonychus": {
+      "dexterity": "2",
+      "name": "Deinonychus"
+    },
+    "dimetrodon": {
+      "dexterity": "0",
+      "name": "Dimetrodon"
+    },
+    "hadrosaurus": {
+      "dexterity": "0",
+      "name": "Hadrosaurus"
+    },
+    "plesiosaurus": {
+      "dexterity": "2",
+      "name": "Plesiosaurus"
+    },
+    "pteranodon": {
+      "dexterity": "2",
+      "name": "Pteranodon"
+    },
+    "quetzalcoatlus": {
+      "dexterity": "1",
+      "name": "Quetzalcoatlus"
+    },
+    "stegosaurus": {
+      "dexterity": "-1",
+      "name": "Stegosaurus"
+    },
+    "t_rex": {
+      "dexterity": "0",
+      "name": "Tyrannosaurus Rex"
+    },
+    "triceratops": {
+      "dexterity": "-1",
+      "name": "Triceratops"
+    },
+    "velociraptor": {
+      "dexterity": "2",
+      "name": "Velociraptor"
+    }
+  },
+  "displacer_beast": {
+    "dexterity": "2",
+    "name": "Displacer Beast"
+  },
+  "doppelganger": {
+    "dexterity": "4",
+    "name": "Doppelganger"
+  },
+  "dracolich_adult_blue": {
+    "dexterity": "0",
+    "name": "Adult Blue Dracolich"
+  },
+  "draegloth": {
+    "dexterity": "2",
+    "name": "Draegloth"
+  },
+  "dragon": {
+    "black": {
+      "adult": {
+        "dexterity": "2",
+        "name": "Adult Black Dragon"
+      },
+      "ancient": {
+        "dexterity": "2",
+        "name": "Ancient Black Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "2",
+        "name": "Black Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "2",
+        "name": "Young Black Dragon"
+      }
+    },
+    "blue": {
+      "adult": {
+        "dexterity": "0",
+        "name": "Adult Blue Dragon"
+      },
+      "ancient": {
+        "dexterity": "0",
+        "name": "Ancient Blue Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "0",
+        "name": "Blue Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "0",
+        "name": "Young Blue Dragon"
+      }
+    },
+    "brass": {
+      "adult": {
+        "dexterity": "0",
+        "name": "Adult Brass Dragon"
+      },
+      "ancient": {
+        "dexterity": "0",
+        "name": "Ancient Brass Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "0",
+        "name": "Brass Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "0",
+        "name": "Young Brass Dragon"
+      }
+    },
+    "bronze": {
+      "adult": {
+        "dexterity": "0",
+        "name": "Adult Bronze Dragon"
+      },
+      "ancient": {
+        "dexterity": "0",
+        "name": "Ancient Bronze Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "0",
+        "name": "Bronze Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "0",
+        "name": "Young Bronze Dragon"
+      }
+    },
+    "copper": {
+      "adult": {
+        "dexterity": "1",
+        "name": "Adult Copper Dragon"
+      },
+      "ancient": {
+        "dexterity": "1",
+        "name": "Ancient Copper Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "1",
+        "name": "Copper Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "1",
+        "name": "Young Copper Dragon"
+      }
+    },
+    "gold": {
+      "adult": {
+        "dexterity": "2",
+        "name": "Adult Gold Dragon"
+      },
+      "ancient": {
+        "dexterity": "2",
+        "name": "Ancient Gold Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "2",
+        "name": "Gold Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "2",
+        "name": "Young Gold Dragon"
+      }
+    },
+    "green": {
+      "adult": {
+        "dexterity": "1",
+        "name": "Adult Green Dragon"
+      },
+      "ancient": {
+        "dexterity": "1",
+        "name": "Ancient Green Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "1",
+        "name": "Green Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "1",
+        "name": "Young Green Dragon"
+      }
+    },
+    "red": {
+      "adult": {
+        "dexterity": "0",
+        "name": "Adult Red Dragon"
+      },
+      "ancient": {
+        "dexterity": "0",
+        "name": "Ancient Red Dragon"
+      },
+      "shadow": {
+        "young": {
+          "dexterity": "0",
+          "name": "Young Red Shadow Dragon"
+        }
+      },
+      "wyrmling": {
+        "dexterity": "0",
+        "name": "Red Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "0",
+        "name": "Young Red Dragon"
+      }
+    },
+    "silver": {
+      "adult": {
+        "dexterity": "0",
+        "name": "Adult Silver Dragon"
+      },
+      "ancient": {
+        "dexterity": "0",
+        "name": "Ancient Silver Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "0",
+        "name": "Silver Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "0",
+        "name": "Young Silver Dragon"
+      }
+    },
+    "white": {
+      "adult": {
+        "dexterity": "0",
+        "name": "Adult White Dragon"
+      },
+      "ancient": {
+        "dexterity": "0",
+        "name": "Ancient White Dragon"
+      },
+      "wyrmling": {
+        "dexterity": "0",
+        "name": "White Dragon Wyrmling"
+      },
+      "young": {
+        "dexterity": "0",
+        "name": "Young White Dragon"
+      }
+    }
+  },
+  "dragon_turtle": {
+    "dexterity": "0",
+    "name": "Dragon Turtle"
+  },
+  "drider": {
+    "dexterity": "3",
+    "name": "Drider"
+  },
+  "dryad": {
+    "dexterity": "1",
+    "name": "Dryad"
+  },
+  "duergar": {
+    "dexterity": "0",
+    "name": "Duergar"
+  }
+}

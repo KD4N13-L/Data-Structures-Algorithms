@@ -1,0 +1,33 @@
+{
+  "amount": 6,
+  "player1": {
+    "name": "Azmerick",
+    "initiative": 10,
+    "dexterity": 0
+  },
+  "player2": {
+    "name": "Dzis",
+    "initiative": 10,
+    "dexterity": 2
+  },
+  "player3": {
+    "name": "Saari",
+    "initiative": 10,
+    "dexterity": 3
+  },
+  "player4": {
+    "name": "Zard",
+    "initiative": 10,
+    "dexterity": 3
+  },
+  "player5": {
+    "name": "Journey",
+    "initiative": 10,
+    "dexterity": 3
+  },
+  "player6": {
+    "name": "Olaf",
+    "initiative": 10,
+    "dexterity": 2
+  }
+}
