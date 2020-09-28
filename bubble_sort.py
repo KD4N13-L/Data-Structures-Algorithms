@@ -39,10 +39,10 @@ def dict_list_print(array):
 
 
 def main():
+
     return_of_the_king = {"name": "Lord of the Rings: Return of the King", "pages": 416, "publish_year": 1955}
     deathly_hallows = {"name": "Harry Potter and the Deathly Hallows", "pages": 607, "publish_year": 2007}
     jon_livingston_seagull = {"name": "Jonathan Livingston Seagull", "pages": 144, "publish_year": 1970}
-
     array = [return_of_the_king, deathly_hallows, jon_livingston_seagull]
 
     dict_list_bubble_sort(array)
