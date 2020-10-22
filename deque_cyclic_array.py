@@ -50,7 +50,7 @@ class ArrayDeque(DequeADT):
         i = 0
         self.queue = []
         while i <= self.last:
-            self.queue.append(0)
+            self.queue.append(None)
             i += 1
         self.size = 0
         self.number_of_recizes = 1
@@ -78,7 +78,7 @@ class ArrayDeque(DequeADT):
         self.max_current_size = self.max_current_size * 2
         i = 0
         while i < self.max_current_size:
-            self.queue.append(0)
+            self.queue.append(None)
             i += 1
         l = 0
         while l <= self.size:
@@ -145,17 +145,14 @@ line.add_first(2)
 line.add_last(3)
 line.add_first(1)
 line.remove_first()
+print("First Value:", line.call_first())
+print("Last Value:", line.call_last())
 line.add_first(4)
 line.add_last(5)
 line.add_last(6)
-line.condition()
 print()
+line.condition()
+print("First Value:", line.call_first())
+print("Last Value:", line.call_last())
 for i in line.queue:
     print(i)
-
-a = line.call_first()
-b = line.call_last()
-
-print()
-print(a)
-print(b)

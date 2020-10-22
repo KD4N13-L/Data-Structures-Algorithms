@@ -32,7 +32,7 @@ class ArrayQueue(QueueADT):
         i = 0
         self.queue = []
         while i <= capacity-1:
-            self.queue.append(0)
+            self.queue.append(None)
             i += 1
         self.first = 0
         self.size = 0
@@ -60,7 +60,7 @@ class ArrayQueue(QueueADT):
         self.max_current_size = self.max_current_size*2
         i = 0
         while i < self.max_current_size:
-            self.queue.append(0)
+            self.queue.append(None)
             i += 1
         l = 0
         while l <= self.size:
@@ -94,13 +94,5 @@ class ArrayQueue(QueueADT):
 # ------------------------------------------------------------------------------
 
 
-line = ArrayQueue(3)
 
-i = 0
-while i < 50:
-    line.enqueue(i)
-    i += 1
-print()
-for i in line.queue:
-    print(i)
 
