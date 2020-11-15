@@ -16,9 +16,9 @@ class Participant:
     def display_participant(self):
         if self.modifier >= 0:
             new_mod = "+" + str(self.modifier)
-            print(self.initiative, ":", self.name, "( Dexterity : ", new_mod, ")")
+            print(self.initiative, ":", self.name, "( Dexterity :", new_mod, ")")
         else:
-            print(self.initiative, ":", self.name, "( Dexterity : ", self.modifier, ")")
+            print(self.initiative, ":", self.name, "( Dexterity :", self.modifier, ")")
 
 
 class Initiative:
@@ -107,7 +107,7 @@ class Player_list:
 
     def import_players(self, initiative_list):
         while True:
-            dictionary_name = input("What is the name of the Players File? ---- ")
+            dictionary_name = input("What is the name of the Players File you'd like to import? ---- ")
             dictionary_file = '' + dictionary_name + '.json'
             manager = os.path.isfile(dictionary_file)
             if manager:
@@ -139,8 +139,8 @@ def main():
     players = Player_list()
     npc_number = int(input("How many NPCs are participating (0 to 15)? ---- "))
     init.import_npcs(npc_number)
-    print("Would you like to create a group of players (Otherwise you'll import and existing one)?")
-    check = input("Answer: 1 for YES, 2 for NO ---- ")
+    print("Would you like to create a group of players? (Otherwise you'll import an already existing one)")
+    check = int(input("Answer: 1 for YES, 2 for NO ---- "))
     if check == 1:
         players.create_players()
     players.import_players(init)
