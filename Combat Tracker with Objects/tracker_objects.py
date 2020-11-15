@@ -75,8 +75,8 @@ class Initiative:
         self.amount += 1
 
     def sort_creatures(self):
-        def initiative_sorter(Participant):
-            return Participant.initiative
+        def initiative_sorter(participant):
+            return participant.initiative
         self.creatures.sort(key=initiative_sorter, reverse=True)
         return self.creatures
 
@@ -89,19 +89,19 @@ class Player_list:
 
     def create_players(self):
         amount = int(input("How many PCs are participating? ---- "))
-        i_pc = 1
+        index_pc = 1
         dictionary_file_name = input("What would you like to name the new players file? ---- ")
         dictionary_destination = {"amount": amount}
-        while i_pc <= amount:
-            value_pc = 'player%d' % i_pc
+        while index_pc <= amount:
+            value_pc = 'player%d' % index_pc
             player = {}
             player[value_pc] = {"name": "blank", "initiative": 0, "dexterity": 0}
-            print("Input information of PC", i_pc)
+            print("Input information of PC", index_pc)
             player[value_pc].update({"name": input("Name: ")})
             player[value_pc].update({"initiative": 10})
             player[value_pc].update({"dexterity": int(input("Dexterity Modifier: "))})
             dictionary_destination.update({value_pc: player[value_pc]})
-            i_pc += 1
+            index_pc += 1
         with open('' + dictionary_file_name + '.json', "w") as file:
             json.dump(dictionary_destination, file, indent=2)
 
@@ -136,11 +136,14 @@ class Player_list:
 
 def main():
     init = Initiative()
-    plays = Player_list()
+    players = Player_list()
     npc_number = int(input("How many NPCs are participating (0 to 15)? ---- "))
     init.import_npcs(npc_number)
-    # plays.create_players()
-    plays.import_players(init)
+    print("Would you like to create a group of players (Otherwise you'll import and existing one)?")
+    check = input("Answer: 1 for YES, 2 for NO ---- ")
+    if check == 1:
+        players.create_players()
+    players.import_players(init)
     init.sort_creatures()
     init.display_current_list()
 

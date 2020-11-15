@@ -1,4 +1,4 @@
-from object_bowl import *
+from First_Object.object_bowl import *
 
 bowl1_material = {"name": "plastic", "density": {"unit": "gram/cm^3", "value": 0.92}}
 
