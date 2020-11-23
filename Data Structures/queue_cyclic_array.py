@@ -19,11 +19,11 @@ class QueueADT(ABC):
         pass
 
     @abstractmethod
-    def condition(self):
+    def size(self):
         pass
 
     @abstractmethod
-    def size(self):
+    def call_first(self):
         pass
 
 
@@ -42,12 +42,6 @@ class ArrayQueue(QueueADT):
 
     def size(self):
         return self.size
-
-    def condition(self):
-        print("Head:", self.first)
-        print("Size:", self.size)
-        print("Number of Resizes:", self.number_of_recizes)
-        print("Max Current Size:", self.max_current_size)
 
     def is_empty(self):
         return self.size == 0
@@ -90,8 +84,8 @@ class ArrayQueue(QueueADT):
         self.first = (self.first + 1) % self.max_current_size
         self.size -= 1
 
-
-# ------------------------------------------------------------------------------
+    def call_first(self):
+        return self.queue[self.first]
 
 
 
